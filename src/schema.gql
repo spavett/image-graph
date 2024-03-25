@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Image {
+  id: ID!
+  width: Int!
+  height: Int!
+  description: String!
+}
+
+type Query {
+  allImages: [Image!]!
+  image(id: Int!): Image!
+}
