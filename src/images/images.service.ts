@@ -5,13 +5,13 @@ import { Image } from './models/image.model';
 export class ImagesService {
   private images: Image[] = [
     {
-      id: "1",
+      id: '1',
       width: 300,
       height: 200,
       description: 'A beautiful landscape',
     },
     {
-      id: "2",
+      id: '2',
       width: 1024,
       height: 768,
       description: 'A cute cat',
